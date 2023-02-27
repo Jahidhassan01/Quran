@@ -25,7 +25,7 @@ a{
     background: rgb(64 56 56);;
     
 }
-.header-logo{}
+
 .header-logo img{
     border-radius: 50%;
     margin-top: 15px;
@@ -53,16 +53,13 @@ ul{
    margin-left: 500px;
 }
 li{
-    float: left;
+    /* float:left; */
     display: inline-block;
     color: #fff;
 }
 .li{
     margin-left: 20px;
     font-size: 18px;
-}
-#main-body{
-  
 }
 .main-body{
     width: 1056px;
@@ -87,7 +84,7 @@ li{
 .coteiner:hover{
     border: 1px ;
     box-shadow: 5px 5px 5px 1px;
-    transition: .s;
+    transition: 5.s;
 }
 .box{
     margin-top: 10px;
@@ -155,4 +152,19 @@ h5{
     border: 2px solid red;
     border-radius: 50%;
     margin-left: 10px;
+}
+
+
+.preloader{
+    display: grid;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    transition: 6s linear;
 }
