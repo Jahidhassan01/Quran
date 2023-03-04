@@ -100,13 +100,12 @@ li{
     background: rgb(43 48 60);
     border-radius: 10px;
     margin: 15px 8px 20px 5px;
-    transition: all .5s ease;
+    transition: all .2s ease;
 }
 
 .coteiner:hover{
     border: 1px ;
-    box-shadow: 1px 3px 15px;
-    transition: 5.s;
+    box-shadow: 5px 5px 5px 1px;
     border: 1px solid darkolivegreen;
 }
 .box{
