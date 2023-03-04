@@ -74,5 +74,8 @@ body {
   .para-2 a {
     color: #49c1a2;
   }
+  .btn{
+    cursor: pointer;
+  }
   
   
