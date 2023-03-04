@@ -49,6 +49,7 @@ a{
     width: 1056px;
     margin: auto;
     border: 2px solid rgb(64 56 56);;
+   
 }
 #c-all{
     margin-bottom: 50px;
@@ -71,6 +72,7 @@ a{
     margin: auto;
     background: #fff;
     border-radius: 10px;
+    transition: all .5s ease;
 }
 .c-line-all :hover{
     color: #fff;
