@@ -16,6 +16,20 @@ a{
     margin: auto;
 
 }
+
+.preloader{
+    display: grid;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    transition: 6s linear;
+}
 .header{
     display: flex;
     margin-top: 15px;
@@ -155,16 +169,3 @@ h5{
 }
 
 
-.preloader{
-    display: grid;
-    position: fixed;
-    background: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
-    transition: 12s linear;
-}
